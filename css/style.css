@@ -53,7 +53,7 @@ section::before,section::after {
     02. Header 
 ========================================================================== */
 #header {
-    background-image:url(http://cincinnatifamilymagazine.com/wp-content/uploads/2012/12/tutors-to-the-rescue.jpg);
+    background-image:url(../images/tutoring2.png);
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -226,7 +226,7 @@ section::before,section::after {
   background: rgba(0,0,0,0.1);
 }
 
-.parallax {  background:url(http://www.makingthegradellc.com/wp-content/uploads/2015/07/text_books1.jpg) fixed no-repeat center center;
+.parallax {  
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -239,7 +239,7 @@ section::before,section::after {
     padding-bottom:130px;
 }
 .parallax.parallax2 {
-    background-image:url(http://soartutoringkc.weebly.com/uploads/2/2/6/7/22673544/7084009_orig.png);
+    background-image:url(../images/books.png);
 }
 .bm10 {
     margin-bottom:10px !important;
@@ -278,6 +278,7 @@ section::before,section::after {
     margin:0 auto;
     padding-top:30px;
     padding-bottom:15px;
+    font-family:'Kreon',serif;
 }
 #tutoring-subjects ul {
     margin:0;
@@ -293,11 +294,20 @@ section::before,section::after {
     margin:auto;
     margin-top: 40px;
     height: 200px;
+    width: 80%;
 }
 
 /* ==========================================================================
     07. Contact 
 ========================================================================== */
+#schedule {
+    background: #D4D4D4;
+}
+
+#contact {
+    text-align: center;
+}
+
 .form-group {
     margin-bottom:24px;
 }
@@ -323,6 +333,10 @@ section::before,section::after {
     transition:none !important;
 }
 
+.hint {
+    background: #FFFFFF;
+}
+
 .form p {
     margin: 10px 0 30px 0;
 }
@@ -335,6 +349,10 @@ section::before,section::after {
 /* ==========================================================================
     08. Tutors 
 ========================================================================== */
+#tutors {
+    background: #FFFFFF;
+}
+
 #tutors img {
     border:5px solid #2e2e2e;
     width: 80%;
